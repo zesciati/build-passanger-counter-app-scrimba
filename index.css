@@ -1,3 +1,6 @@
+
+
+
 body {
     background-image: url("station.jpg");
     background-size: cover;
@@ -25,8 +28,13 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 5px;    
 }
+/* -------------------------- tidak ada di scrimba -------------------------- */
+button:active{
+    border: solid 4px #9ECAD6 ;
+}
+/* -------------------------- tidak ada di scrimba -------------------------- */
 
 #increment-btn {
     background: darkred;
